@@ -1936,8 +1936,8 @@ h5 {
   }
 }
 .fullscreen-home__title {
-  width: 120%;
-  transform: translate(10%, 0);
+  width: 121%;
+  transform: translate(10.2%, 0);
   font-family: HeliosCond;
   font-weight: 700;
   font-size: 11dvw;
@@ -1956,6 +1956,11 @@ h5 {
 .fullscreen-home__title .line {
   transform: translateY(105%);
   animation: slide-in-1 1.5s ease 1s forwards;
+}
+@media (max-width: 1600.98px) {
+  .fullscreen-home__title {
+    transform: translate(10.1%, 0);
+  }
 }
 @media (max-width: 1412px) {
   .fullscreen-home__title {
