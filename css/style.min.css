@@ -1936,8 +1936,8 @@ h5 {
   }
 }
 .fullscreen-home__title {
-  width: 110%;
-  transform: translate(6%, 0);
+  width: 120%;
+  transform: translate(10%, 0);
   font-family: HeliosCond;
   font-weight: 700;
   font-size: 11dvw;
@@ -1964,8 +1964,8 @@ h5 {
 }
 @media (max-width: 1024.98px) {
   .fullscreen-home__title {
+    transform: translate(10%, 0);
     font-size: 16.3dvw;
-    font-size: 16.2dvw;
     line-height: 117%;
   }
   .fullscreen-home__title br {
@@ -1975,13 +1975,11 @@ h5 {
 @media (max-width: 768.98px) {
   .fullscreen-home__title {
     font-size: 16dvw;
-    font-size: 15.8dvw;
   }
 }
 @media (max-width: 550px) {
   .fullscreen-home__title {
     font-size: 15.5dvw;
-    font-size: 15.3dvw;
   }
 }
 .fullscreen-home__title-mobile {
