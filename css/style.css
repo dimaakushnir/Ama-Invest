@@ -1936,8 +1936,8 @@ h5 {
   }
 }
 .fullscreen-home__title {
-  width: 120%;
-  transform: translate(9%, 0);
+  width: 110%;
+  transform: translate(5%, 0);
   font-family: HeliosCond;
   font-weight: 700;
   font-size: 11dvw;
