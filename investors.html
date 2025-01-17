@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-lenis">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Investors</title>
+</head>
+
+<body>
+    <svg display="none">
+    <symbol id="arrow" viewBox="0 0 12 12">
+        <g>
+            <path d="M1 11L11 1M11 1L2.62952 1.0778M11 1L10.9222 9.37048" />
+        </g>
+    </symbol>
+    <symbol id="logo-icon" viewBox="0 0 278 197">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M212.365 115.006C211.345 113.768 212.218 111.893 213.815 111.893H276.111C277.708 111.893 278.582 110.018 277.562 108.78L190.19 2.74493C188.757 1.00604 186.63 0 184.387 0H93.8063C91.5605 0 89.4315 1.00842 87.9987 2.75083L0.808975 108.781C-0.209302 110.02 0.664794 111.893 2.26085 111.893H63.9954C65.5925 111.893 66.4662 113.768 65.446 115.006L0.438488 193.887C-0.581736 195.125 0.292043 197 1.88906 197H64.532C66.8479 197 69.0355 195.928 70.4652 194.092L87.2415 172.552C88.6712 170.716 90.8587 169.644 93.1747 169.644H184.447C186.763 169.644 188.951 170.716 190.381 172.552L207.157 194.092C208.587 195.928 210.774 197 213.09 197H275.922C277.519 197 278.392 195.125 277.372 193.887L212.365 115.006ZM205.779 111.893C207.376 111.893 208.25 110.016 207.228 108.779L168.318 61.6315C166.885 59.8953 164.76 58.8911 162.519 58.8911H115.292C113.051 58.8911 110.926 59.8953 109.493 61.6315L70.5827 108.779C69.5613 110.016 70.4348 111.893 72.0325 111.893H205.779Z" />
+        </g>
+    </symbol>
+    <symbol id="logo-text" viewBox="0 0 259 152">
+        <g>
+            <path d="M243.038 92.9132V150.403H230.175V92.9132H214.213V82.5801H259V92.9132H243.038Z" />
+            <path
+                d="M207.6 103.998H195.3V103.246C195.3 94.98 192.296 91.6922 187.225 91.6922C183.564 91.6922 180.371 93.6649 180.371 97.4224C180.371 101.462 181.967 103.34 184.69 105.125L197.835 113.861C204.971 118.652 209.384 122.785 209.384 132.931C209.384 144.861 202.06 152 188.54 152C174.174 152 166.851 143.639 166.851 129.737V127.107H179.151V129.737C179.151 139.224 183.657 141.667 188.54 141.667C193.422 141.667 196.145 138.285 196.145 134.058C196.145 129.643 193.892 127.013 189.103 123.913L177.648 116.398C170.888 111.983 167.508 106.252 167.508 98.9254C167.508 87.7469 175.77 81.3591 187.507 81.3591C200.37 81.3591 207.6 88.3105 207.6 101.931V103.998Z" />
+            <path
+                d="M123.784 82.5801H160.027V92.9132H136.648V108.695H157.961V119.028H136.648V140.07H160.027V150.403H123.784V82.5801Z" />
+            <path
+                d="M71.252 82.5801H84.8664L94.7252 139.036H94.9129L104.114 82.5801H117.353L104.114 150.403H85.6176L71.252 82.5801Z" />
+            <path
+                d="M22.2808 82.5801H36.1769L54.9555 131.897H55.0494C53.641 124.288 53.4532 114.331 53.4532 106.628V82.5801H65.4715V150.403H51.5753L32.7968 101.18H32.7029C34.1113 107.755 34.299 119.497 34.299 126.355V150.403H22.2808V82.5801Z" />
+            <path d="M12.8633 82.5801V150.403H0V82.5801H12.8633Z" />
+            <path
+                d="M119.772 67.8226L136.954 0H154.231L169.253 67.8226H155.357L152.165 50.1625H137.612L133.574 67.8226H119.772ZM139.208 40.1112H150.569L145.405 8.54829L139.208 40.1112Z" />
+            <path
+                d="M55.4126 0H75.9751L84.9888 44.0565L94.0026 0H114.565V67.8226H102.547V6.38773H102.453L89.5896 67.8226H80.3881L67.5248 6.48167H67.4309V67.8226H55.4126V0Z" />
+            <path
+                d="M0.57373 67.8226L17.7561 0H35.0324L50.0552 67.8226H36.1591L32.9668 50.1625H18.4134L14.376 67.8226H0.57373ZM20.0095 40.1112H31.3706L26.2065 8.54829L20.0095 40.1112Z" />
+        </g>
+    </symbol>
+    <symbol id="btn" viewBox="0 0 115 115">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M87 21.1224L115 0V87V115H87H0L23.7994 87H64.373L9 31.627L31.6274 8.99954L87 64.3721V21.1224Z" />
+        </g>
+    </symbol>
+    <symbol id="linkedin" viewBox="0 0 27 25">
+        <g>
+            <path
+                d="M27 15.3302V25H21.1883V15.9198C21.1883 13.6792 20.3408 12.1462 18.2825 12.1462C16.7085 12.1462 15.7399 13.2075 15.3767 14.1509C15.2556 14.5047 15.1345 14.9764 15.1345 15.566V25H9.32287C9.32287 25 9.44394 9.66981 9.32287 8.1368H15.1345V10.4953C15.861 9.31604 17.3139 7.6651 20.3408 7.6651C24.0942 7.6651 27 10.1415 27 15.3302ZM3.26906 0C1.33184 0 0 1.29717 0 2.94811C0 4.59906 1.21076 5.89623 3.14798 5.89623C5.20628 5.89623 6.41704 4.59906 6.41704 2.94811C6.53812 1.17925 5.32735 0 3.26906 0ZM0.363228 25H6.17489V8.1368H0.363228V25Z" />
+        </g>
+    </symbol>
+    <symbol id="plus" viewBox="0 0 32 32">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 0H11V11H0V21H11V32H21V21H32V11H21V0Z" />
+        </g>
+    </symbol>
+    <symbol id="arrow-btn" viewBox="0 0 59 72">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M21.241 15.7466L23.3555 0.644418L50.103 27.3919L58.7113 36.0002L23.3558 71.3557L22.0644 55.4305L34.5388 42.9561L0.490135 42.9561V29.043L34.5375 29.043L21.241 15.7466Z" />
+        </g>
+    </symbol>
+    <symbol id="share" viewBox="0 0 30 36">
+        <g>
+            <path
+                d="M1 13V12H0V13H1ZM1 35H0V36H1V35ZM29 35V36H30V35H29ZM29 13H30V12H29V13ZM15.7071 0.292893C15.3166 -0.0976311 14.6834 -0.0976311 14.2929 0.292893L7.92893 6.65685C7.53841 7.04738 7.53841 7.68054 7.92893 8.07107C8.31946 8.46159 8.95262 8.46159 9.34315 8.07107L15 2.41421L20.6569 8.07107C21.0474 8.46159 21.6805 8.46159 22.0711 8.07107C22.4616 7.68054 22.4616 7.04738 22.0711 6.65685L15.7071 0.292893ZM10.1303 12H1V14H10.1303V12ZM0 13V35H2V13H0ZM1 36H29V34H1V36ZM30 35V13H28V35H30ZM29 12H19.8697V14H29V12ZM16 24V1H14V24H16Z" />
+        </g>
+    </symbol>
+    <symbol id="email-share" viewBox="0 0 25 25">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.5616 0.0235252C9.70842 0.200957 8.33006 0.592802 6.76956 1.38582C4.921 2.32516 3.26221 3.81056 2.0527 5.60955C1.54059 6.37126 0.914783 7.65715 0.614301 8.56513C0.371764 9.29801 0.179103 10.1321 0.0613556 10.9589C-0.0204518 11.5334 -0.0204518 13.462 0.0613556 14.0366C0.266241 15.4755 0.646917 16.736 1.24167 17.9448C1.91456 19.3124 2.57367 20.2311 3.66181 21.3183C4.73807 22.3935 5.67203 23.0649 6.98961 23.7106C7.90895 24.1612 8.50253 24.3805 9.43454 24.6141C11.8802 25.2269 14.333 25.1094 16.7223 24.2649C17.4466 24.009 18.711 23.3759 19.361 22.9438C21.1457 21.7573 22.6206 20.1191 23.5971 18.2385C24.4807 16.537 24.9228 14.8488 24.9918 12.913C25.066 10.8295 24.6372 8.84656 23.7093 6.98265C23.1 5.75875 22.4218 4.79953 21.4694 3.81501C20.4134 2.72316 19.3775 1.96985 17.9918 1.28582C16.5434 0.570868 15.1938 0.189233 13.5909 0.0412586C13.0927 -0.00471148 11.9602 -0.0146285 11.5616 0.0235252ZM19.7208 7.00029C20.0175 7.16448 20.2626 7.4275 20.4243 7.75535L20.5345 7.9789V12.4977V17.0166L20.4243 17.2401C20.2626 17.568 20.0175 17.831 19.7208 17.9952L19.4588 18.1402H12.4907H5.52265L5.2606 17.9952C4.96388 17.831 4.71885 17.568 4.55714 17.2401L4.44688 17.0166V12.4977V7.9789L4.58409 7.69975C4.74927 7.3637 5.07386 7.06487 5.41786 6.93223C5.66489 6.83697 5.79105 6.83541 12.564 6.84528L19.4588 6.85529L19.7208 7.00029ZM7.06471 8.16903C7.21914 8.31573 12.3998 12.4058 12.4608 12.4291C12.511 12.4484 17.585 8.48701 17.9167 8.16957C17.9782 8.11075 17.2095 8.10103 12.4907 8.10103C7.7914 8.10103 7.00349 8.1109 7.06471 8.16903ZM5.74269 12.7553C5.74269 16.5465 5.7469 16.7366 5.83213 16.8136C5.91437 16.888 6.44722 16.8945 12.4992 16.8945C18.818 16.8945 19.08 16.8909 19.1581 16.8048C19.2326 16.7226 19.2383 16.3879 19.2268 12.7557L19.2143 8.7963L18.1874 9.61355C14.0948 12.8706 12.7566 13.9128 12.6317 13.9401C12.5542 13.9572 12.429 13.9576 12.3537 13.941C12.2784 13.9245 11.4257 13.284 10.4589 12.5176C9.06105 11.4096 6.51226 9.38858 5.85491 8.86689L5.74269 8.77788V12.7553Z" />
+        </g>
+    </symbol>
+    <symbol id="facebook-share" viewBox="0 0 25 25">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.3127 0.0303495C7.39826 0.437299 3.97328 2.56357 1.88923 5.88066C-0.527047 9.7266 -0.633892 14.7383 1.61671 18.6651C2.80131 20.7319 4.5389 22.4313 6.5898 23.5288C8.33484 24.4626 10.2612 24.9776 12.0701 24.994L12.7303 25L12.7427 20.1449L12.7552 15.2898H11.4102H10.0652V13.7252V12.1606L11.3978 12.1476L12.7303 12.1345L12.758 10.4958C12.7831 9.00834 12.7956 8.82088 12.8935 8.46569C13.2658 7.11413 14.1643 6.21497 15.5176 5.83942C15.8695 5.74173 16.024 5.73068 17.0579 5.72926C17.6899 5.72838 18.4216 5.74594 18.6838 5.76825L19.1606 5.8088V7.21896V8.62912L17.9992 8.64546C16.8445 8.66165 16.8364 8.66253 16.5854 8.79471C16.0466 9.07853 15.9821 9.3059 15.9821 10.9194V12.159H17.5224C18.3696 12.159 19.0627 12.1755 19.0626 12.1957C19.0625 12.2158 18.9745 12.9024 18.867 13.7213C18.7595 14.5402 18.6716 15.2281 18.6716 15.25C18.6716 15.2719 18.0664 15.2898 17.3268 15.2898H15.9821V19.9125C15.9821 22.455 15.9907 24.5353 16.0011 24.5353C16.0944 24.5353 17.2583 24.095 17.6989 23.893C19.1696 23.2189 20.3116 22.4071 21.4841 21.2024C22.5043 20.1543 23.1376 19.2482 23.7873 17.9069C24.3648 16.7144 24.7588 15.3847 24.9396 14.0179C25.0201 13.4095 25.0201 11.5267 24.9397 10.9605C24.5286 8.06798 23.3346 5.6345 21.3546 3.65371C19.4151 1.71343 16.9975 0.503436 14.2462 0.0958998C13.6463 0.00701559 11.9102 -0.0317275 11.3127 0.0303495Z" />
+        </g>
+    </symbol>
+    <symbol id="instagram-share" viewBox="0 0 25 25">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.3133 0.0303533C7.40168 0.437109 3.97352 2.5659 1.891 5.8814C-1.06167 10.5823 -0.510591 16.7909 3.22242 20.8808C5.28836 23.1443 7.87208 24.4974 10.9705 24.9388C11.549 25.0212 13.4713 25.0202 14.0752 24.9371C16.905 24.548 19.4394 23.293 21.3668 21.3261C21.9994 20.6806 22.1342 20.5263 22.5538 19.9667C23.8041 18.299 24.6228 16.266 24.9387 14.0441C25.0205 13.4685 25.0205 11.5372 24.9386 10.9619C24.7279 9.4807 24.3447 8.2187 23.7301 6.98097C23.0788 5.6696 22.4104 4.73471 21.3701 3.67986C19.4404 1.72303 17.0241 0.507462 14.2464 0.0959118C13.6466 0.00701647 11.9107 -0.0317315 11.3133 0.0303533ZM15.4603 5.36016C16.8657 5.45121 17.6875 5.75923 18.4391 6.47661C19.2028 7.20553 19.5551 8.10089 19.649 9.55149C19.7109 10.5073 19.7108 14.4734 19.6489 15.4444C19.5555 16.9089 19.1957 17.8144 18.4128 18.5554C17.6839 19.2451 16.8413 19.5563 15.4603 19.6458C14.5221 19.7066 10.4992 19.7066 9.56101 19.6458C8.15561 19.5548 7.33381 19.2468 6.58218 18.5294C5.81851 17.8005 5.46618 16.9051 5.37231 15.4545C5.3109 14.5058 5.31124 10.4261 5.37285 9.52356C5.47059 8.09091 5.82413 7.20015 6.58218 6.47661C7.3033 5.78834 8.17018 5.44896 9.4242 5.36388C10.2507 5.30781 14.6111 5.30512 15.4603 5.36016ZM10.726 6.63757C9.25723 6.66404 9.02015 6.6793 8.68992 6.76878C7.64986 7.05064 7.05942 7.64174 6.78093 8.67986C6.69233 9.01015 6.67703 9.25521 6.6498 10.7784C6.63288 11.727 6.63288 13.2791 6.6498 14.2276C6.67703 15.7508 6.69233 15.9958 6.78093 16.3261C7.05952 17.3646 7.65206 17.9576 8.68992 18.2363C9.02 18.325 9.26491 18.3403 10.7872 18.3675C11.7351 18.3845 13.2862 18.3845 14.2341 18.3675C15.7689 18.3401 15.9995 18.3255 16.3397 18.2342C17.3523 17.9625 17.9654 17.3491 18.2387 16.3344C18.3308 15.9929 18.3449 15.7685 18.372 14.2276C18.3887 13.2791 18.3887 11.7269 18.372 10.7784C18.3452 9.24983 18.3303 9.01132 18.2409 8.67986C17.9603 7.63944 17.3657 7.04501 16.3314 6.77103C15.9501 6.6701 15.8492 6.66536 13.0974 6.61947C12.7074 6.61296 11.6403 6.62108 10.726 6.63757ZM16.6512 7.85833C16.8385 7.92912 17.0557 8.14023 17.1371 8.33064C17.3733 8.88314 16.9516 9.51862 16.3488 9.51862C15.8881 9.51862 15.4931 9.12566 15.4931 8.66719C15.4931 8.07477 16.1009 7.65025 16.6512 7.85833ZM13.6968 9.0145C14.2881 9.22204 14.6164 9.42874 15.0805 9.88555C15.5303 10.3284 15.8115 10.7698 16.0154 11.3533C16.1424 11.7169 16.1522 11.7985 16.1522 12.503C16.1522 13.2075 16.1424 13.2891 16.0154 13.6527C15.8183 14.2167 15.5297 14.6762 15.1061 15.1C14.6824 15.5239 14.2233 15.8128 13.6596 16.01C13.2963 16.1371 13.2147 16.1468 12.5106 16.1468C11.8066 16.1468 11.725 16.1371 11.3617 16.01C10.7785 15.806 10.3374 15.5246 9.89485 15.0745C9.44058 14.6124 9.2343 14.2855 9.02137 13.6899C8.8742 13.2784 8.86814 13.2311 8.8697 12.503C8.87117 11.8117 8.88295 11.71 9.00294 11.3533C9.25777 10.5952 9.80156 9.88134 10.4555 9.44631C11.1721 8.96959 11.6839 8.82756 12.6084 8.84894C13.1974 8.86254 13.3147 8.8804 13.6968 9.0145ZM11.934 10.1819C10.6485 10.5281 9.86566 11.8186 10.1886 13.0592C10.4224 13.9575 11.0584 14.5929 11.9583 14.8274C13.6387 15.2654 15.2713 13.6318 14.8336 11.9503C14.4929 10.6415 13.1863 9.8446 11.934 10.1819Z" />
+        </g>
+    </symbol>
+    <symbol id="linkedin-share" viewBox="0 0 25 25">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.3133 0.0303533C7.40168 0.437109 3.97352 2.5659 1.891 5.8814C-1.06167 10.5823 -0.510591 16.7909 3.22242 20.8808C5.28836 23.1443 7.87208 24.4974 10.9705 24.9388C11.549 25.0212 13.4713 25.0202 14.0752 24.9371C16.905 24.548 19.4394 23.293 21.3668 21.3261C21.9994 20.6806 22.1342 20.5263 22.5538 19.9667C23.8041 18.299 24.6228 16.266 24.9387 14.0441C25.0205 13.4685 25.0205 11.5372 24.9386 10.9619C24.7279 9.4807 24.3447 8.2187 23.7301 6.98097C23.0788 5.6696 22.4104 4.73471 21.3701 3.67986C19.4404 1.72303 17.0241 0.507462 14.2464 0.0959118C13.6466 0.00701647 11.9107 -0.0317315 11.3133 0.0303533ZM8.08579 5.43824C8.4322 5.55982 8.84731 5.98355 8.96827 6.33903C9.25102 7.17011 8.86574 8.04825 8.09117 8.33822C7.17843 8.67996 6.24677 8.39615 5.83406 7.65064C5.70156 7.41121 5.69002 7.35132 5.69002 6.90117C5.69002 6.49055 5.70733 6.37959 5.79768 6.21056C6.02758 5.78061 6.36582 5.50825 6.83554 5.37488C7.12357 5.29313 7.76496 5.32562 8.08579 5.43824ZM17.3755 9.64328C17.8712 9.77796 18.4167 10.0935 18.769 10.4494C19.1459 10.83 19.3711 11.1945 19.5605 11.7299C19.8322 12.4983 19.8447 12.6822 19.8447 15.9341V18.9121H18.329H16.8133L16.8124 16.2335C16.8117 14.1192 16.7971 13.4864 16.7427 13.2298C16.6166 12.6346 16.3783 12.2911 15.9432 12.0776C15.5555 11.8875 15.009 11.8838 14.6131 12.0686C14.2606 12.2332 13.9671 12.535 13.7701 12.9352L13.6107 13.2591L13.595 16.0856L13.5793 18.9121H12.0671H10.5549V14.3132V9.71431H12.0706H13.5863L13.5879 10.3626L13.5894 11.0108L13.7133 10.864C13.7814 10.7833 13.9232 10.6148 14.0283 10.4894C14.3828 10.067 15.0894 9.68056 15.7141 9.56749C16.06 9.50492 17.0288 9.5491 17.3755 9.64328ZM8.88056 14.3254L8.89302 18.9121H7.35264H5.81225V14.3458C5.81225 11.8343 5.82721 9.76456 5.84555 9.74621C5.86383 9.72791 6.55142 9.71877 7.37347 9.72586L8.86809 9.73878L8.88056 14.3254Z" />
+        </g>
+    </symbol>
+    <symbol id="x-share" viewBox="0 0 25 25">
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.5716 0.0235252C9.75873 0.197244 8.38071 0.582885 6.87473 1.33805C5.67829 1.93795 4.70515 2.64998 3.67767 3.6772C2.57885 4.77584 1.88946 5.74058 1.23221 7.09955C0.461798 8.69239 0.0724637 10.2774 0.00820982 12.0825C-0.0659631 14.166 0.362559 16.1489 1.28972 18.0128C1.94286 19.3258 2.61394 20.2547 3.67767 21.3183C4.75313 22.3935 5.6864 23.0649 7.00299 23.7106C7.92165 24.1612 8.51479 24.3805 9.44611 24.6141C11.8899 25.2269 14.3409 25.1094 16.7285 24.2649C17.4522 24.009 18.7156 23.3759 19.3652 22.9438C21.1485 21.7573 22.6224 20.1191 23.5982 18.2385C24.4811 16.537 24.9228 14.8488 24.9918 12.913C25.066 10.8295 24.6374 8.84656 23.7103 6.98265C23.1015 5.75875 22.4237 4.79953 21.472 3.81501C20.4168 2.72316 19.3817 1.96985 17.997 1.28582C16.5497 0.570868 15.2011 0.189233 13.5994 0.0412586C13.1016 -0.00471148 11.9699 -0.0146285 11.5716 0.0235252ZM16.1074 6.95695C16.4799 7.08182 16.8559 7.2977 17.1488 7.55481L17.3199 7.70498L17.6584 7.61714C18.0656 7.51153 18.6046 7.30117 18.8887 7.13697C19.0038 7.07054 19.0964 7.04147 19.0964 7.07185C19.0964 7.17777 18.8096 7.69335 18.611 7.94455C18.5007 8.08407 18.3002 8.28056 18.1654 8.38115C18.0307 8.48173 17.9418 8.57118 17.9681 8.57993C18.0445 8.60538 19.0011 8.36214 19.2576 8.25203L19.4919 8.15135L19.4041 8.30293C19.2815 8.51461 18.51 9.32415 18.2771 9.48546L18.0842 9.61912L18.0554 10.3623C18.0082 11.5788 17.7407 12.5946 17.1649 13.7435C15.9947 16.0781 13.9031 17.6479 11.4093 18.063C9.56162 18.3706 7.88466 18.1332 6.27006 17.3354C5.38912 16.9002 5.38858 16.9199 6.28193 16.9126C6.93546 16.9073 7.12266 16.8877 7.5202 16.7831C8.30815 16.5758 9.03596 16.2435 9.56054 15.8514L9.72389 15.7293L9.48725 15.6988C9.13676 15.6535 8.65097 15.4909 8.34671 15.3171C7.98293 15.1092 7.47627 14.5892 7.28947 14.232C7.01814 13.7131 6.99869 13.7435 7.60214 13.7435C8.31504 13.7435 8.41628 13.6966 8.00398 13.5574C7.82969 13.4985 7.57712 13.3864 7.44275 13.3081C7.10013 13.1086 6.59279 12.5774 6.40321 12.2197C6.23087 11.8945 6.05018 11.2675 6.05018 10.9947C6.05018 10.8525 6.06352 10.8322 6.13569 10.864C6.37775 10.9706 6.8826 11.1217 7.07902 11.1463L7.30164 11.1743L6.93156 10.7979C6.34086 10.1972 6.08101 9.56391 6.08555 8.73611C6.08805 8.27997 6.14336 8.01954 6.3243 7.61211L6.44381 7.34303L7.06544 7.95589C8.23266 9.10656 9.63041 9.86387 11.1563 10.1724C11.5437 10.2507 12.342 10.3434 12.3719 10.3135C12.3804 10.3049 12.3682 10.1828 12.3446 10.0422C12.2562 9.51438 12.4179 8.73401 12.7235 8.21251C13.1269 7.52442 13.9587 6.95368 14.7351 6.83233C15.1419 6.76868 15.696 6.81899 16.1074 6.95695Z" />
+        </g>
+    </symbol>
+</svg>
+<!-- <svg>
+	<use xlink:href=" #arrow">
+                </use>
+</svg> -->
+    <div class="wrapper">
+        <header class="header header_white">
+    <div class="header__main">
+        <div class="header__container container">
+            <div class="header__row">
+                <div class="header__column">
+                    <a href="index.html" class="header__logo logo-header">
+                        <span class="logo-header__icon">
+                            <svg>
+                                <use xlink:href=" #logo-icon">
+                                </use>
+                            </svg>
+                        </span>
+                        <span class="logo-header__text">
+                            <svg>
+                                <use xlink:href="#logo-text"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="header__column header__column_menu">
+                    <nav class="header__menu menu-header" data-da="mobile-header__body, 2, 992.98">
+                        <ul class="menu-header__list">
+                            <li class="menu-header__item">
+                                <a href="about.html" class="menu-header__link">
+                                    about us
+                                </a>
+                            </li>
+                            <li class="menu-header__item">
+                                <a href="startups.html" class="menu-header__link">
+                                    startups
+                                </a>
+                            </li>
+                            <li class="menu-header__item">
+                                <a href="investors.html" class="menu-header__link">
+                                    investors
+                                </a>
+                            </li>
+                            <li class="menu-header__item">
+                                <a href="industries.html" class="menu-header__link">
+                                    Industries & Cases
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="" class="header__btn-talk" data-da="mobile-header__body, 1, 992.98">let’s talk</a>
+                    <div class="header__languages languages" data-da="mobile-header__body, 0, 992.98">
+                        <div class="languages__dropdown dropdown">
+                            <button class="dropdown__btn">EN</button>
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item active" data-dropdown="EN">EN</li>
+                                <li class="dropdown__item" data-dropdown="UA">UA</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="header__burger">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__mobile mobile-header">
+        <div class="mobile-header__container container">
+            <div class="mobile-header__body"></div>
+        </div>
+    </div>
+</header>
+        <main class="investors">
+            <section class="investors__baner-block baner-block show">
+                <div class="baner-block__container container parallax-section">
+                    <div class="baner-block__body">
+                        <div class="baner-block__main rellax" data-rellax-speed="1">
+                            <div class="baner-block__image-block wow animate__animated animate__fadeIn"
+                                style="animation-duration: 5s;">
+                                <div class=" baner-block__img ibg">
+                                    <img src="img/baners/04.jpg" alt="baner">
+                                </div>
+                            </div>
+                            <h4 class="baner-block__title"><span>Investors</span></h4>
+                        </div>
+                        <div class="baner-block__content content-baner-block wow animate__animated animate__fadeInUp"
+                            style="animation-delay: 2.5s; animation-duration: 1s;">
+                            <div class="content-baner-block__row rellax" data-rellax-speed="4">
+                                <h1 class="content-baner-block__title">
+                                    Invest in projects<br> that <span class="color">impact the future</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="investors__info info-investors show">
+                <div class="info-investors__container container">
+                    <h2 class="info-investors__title">
+                        <span class="wow animate__animated animate__slideInLeft" style="animation-duration: 2s;">By
+                            working with us, investors</span>
+                        <span class="wow animate__animated animate__slideInRight color"
+                            style="animation-duration: 2s;">receive a wide range of opportunities</span>
+                        <span class="wow animate__animated animate__slideInLeft" style="animation-duration: 2s;">for
+                            effective capital allocation</span>
+                        <span class="wow animate__animated animate__slideInRight color"
+                            style="animation-duration: 2s;">and stable income</span>
+                    </h2>
+                </div>
+            </section>
+            <section class="investors__opportunities opportunities opportunities_color hide">
+                <div class="opportunities__container container">
+                    <h4 class="opportunities__title">Investment opportunities
+                    </h4>
+                    <div class="opportunities__body">
+                        <div class="opportunities__item item-opportunities wow animate__animated animate__fadeInUp">
+                            <div class="item-opportunities__number">1</div>
+                            <h3 class="item-opportunities__value">
+                                Diversification of the investment portfolio
+                            </h3>
+                        </div>
+                        <div class="opportunities__item item-opportunities wow animate__animated animate__fadeInUp">
+                            <div class="item-opportunities__number">2</div>
+                            <h3 class="item-opportunities__value">
+                                Access to exclusive investment opportunities
+                            </h3>
+                        </div>
+                        <div class="opportunities__item item-opportunities wow animate__animated animate__fadeInUp">
+                            <div class="item-opportunities__number">3</div>
+                            <h3 class="item-opportunities__value">
+                                Investments on a global scale
+                            </h3>
+                        </div>
+                        <div class="opportunities__item item-opportunities wow animate__animated animate__fadeInUp">
+                            <div class="item-opportunities__number">4</div>
+                            <h3 class="item-opportunities__value">
+                                Investments in cutting-edge technologies and innovations
+                            </h3>
+                        </div>
+                        <div class="opportunities__item item-opportunities wow animate__animated animate__fadeInUp">
+                            <div class="item-opportunities__number">5</div>
+                            <h3 class="item-opportunities__value">
+                                Venture investments and startups
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="investors__who-us who-us show">
+                <div class="who-us__container container">
+                    <div class="who-us__row">
+                        <h4 class="who-us__title wow animate__animated animate__slideInUp">Why us?</h4>
+                        <div class="who-us__content content-who-us">
+                            <h2 class="content-who-us__title wow animate__animated animate__slideInUp">Benefits of
+                                cooperation</h2>
+                            <div class="content-who-us__top wow animate__animated animate__slideInUp">We offer:</div>
+                            <div class="content-who-us__items wow animate__animated animate__fadeInUpBig"
+                                style="animation-duration: 1.5s; animation-delay: 1s;">
+                                <div class="content-who-us__item">Professional asset management</div>
+                                <div class="content-who-us__item">Risk mitigation through expertise</div>
+                                <div class="content-who-us__item">Long-term investment strategy</div>
+                                <div class="content-who-us__item">Innovative investment solutions</div>
+                                <div class="content-who-us__item">Access to additional services</div>
+                                <div class="content-who-us__item">Transparency and accountability</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="investors__process process-investors hide wow animate__animated animate__fadeInUpBig"
+                style="animation-duration: 2s;">
+                <div class="process-investors__container container">
+                    <h2 class="process-investors__title">Investment process</h2>
+                    <div class="process-investors__body">
+                        <div class="process-investors__item item-process-investors active">
+                            <button class="item-process-investors__top top-item-process-investors">
+                                <div class="top-item-process-investors__number">1/</div>
+                                <h4 class="top-item-process-investors__title">Initial contact and consultation</h4>
+                                <div class="top-item-process-investors__arrow">
+                                    <svg>
+                                        <use xlink:href=" #arrow-btn">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="item-process-investors__text text-1">
+                                <p>
+                                    At this stage, the investor is introduced to AmA Invest. It includes assessing the
+                                    investor's goals and financial situation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-investors__item item-process-investors">
+                            <button class="item-process-investors__top top-item-process-investors">
+                                <div class="top-item-process-investors__number">2/</div>
+                                <h4 class="top-item-process-investors__title">Development of an investment strategy</h4>
+                                <div class="top-item-process-investors__arrow">
+                                    <svg>
+                                        <use xlink:href=" #arrow-btn">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="item-process-investors__text text-1">
+                                <p>
+                                    At this stage, the investor is introduced to AmA Invest. It includes assessing the
+                                    investor's goals and financial situation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-investors__item item-process-investors">
+                            <button class="item-process-investors__top top-item-process-investors">
+                                <div class="top-item-process-investors__number">3/</div>
+                                <h4 class="top-item-process-investors__title">Agreement and contract signing</h4>
+                                <div class="top-item-process-investors__arrow">
+                                    <svg>
+                                        <use xlink:href=" #arrow-btn">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="item-process-investors__text text-1">
+                                <p>
+                                    At this stage, the investor is introduced to AmA Invest. It includes assessing the
+                                    investor's goals and financial situation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-investors__item item-process-investors">
+                            <button class="item-process-investors__top top-item-process-investors">
+                                <div class="top-item-process-investors__number">4/</div>
+                                <h4 class="top-item-process-investors__title">Capital contribution</h4>
+                                <div class="top-item-process-investors__arrow">
+                                    <svg>
+                                        <use xlink:href=" #arrow-btn">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="item-process-investors__text text-1">
+                                <p>
+                                    At this stage, the investor is introduced to AmA Invest. It includes assessing the
+                                    investor's goals and financial situation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-investors__item item-process-investors">
+                            <button class="item-process-investors__top top-item-process-investors">
+                                <div class="top-item-process-investors__number">5/</div>
+                                <h4 class="top-item-process-investors__title">Reporting and analytics</h4>
+                                <div class="top-item-process-investors__arrow">
+                                    <svg>
+                                        <use xlink:href=" #arrow-btn">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="item-process-investors__text text-1">
+                                <p>
+                                    At this stage, the investor is introduced to AmA Invest. It includes assessing the
+                                    investor's goals and financial situation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-investors__item item-process-investors">
+                            <button class="item-process-investors__top top-item-process-investors">
+                                <div class="top-item-process-investors__number">6/</div>
+                                <h4 class="top-item-process-investors__title">Performance evaluation and strategy
+                                    adjustment</h4>
+                                <div class="top-item-process-investors__arrow">
+                                    <svg>
+                                        <use xlink:href=" #arrow-btn">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="item-process-investors__text text-1">
+                                <p>
+                                    At this stage, the investor is introduced to AmA Invest. It includes assessing the
+                                    investor's goals and financial situation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-investors__item item-process-investors">
+                            <button class="item-process-investors__top top-item-process-investors">
+                                <div class="top-item-process-investors__number">7/</div>
+                                <h4 class="top-item-process-investors__title">Profit withdrawal or reinvestment</h4>
+                                <div class="top-item-process-investors__arrow">
+                                    <svg>
+                                        <use xlink:href=" #arrow-btn">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="item-process-investors__text text-1">
+                                <p>
+                                    At this stage, the investor is introduced to AmA Invest. It includes assessing the
+                                    investor's goals and financial situation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="investors__cta cta hide wow animate__animated animate__fadeInUpBig"
+                style="animation-duration: 2s;">
+                <div class="cta__container container">
+                    <div class="cta__row">
+                        <div class="cta__column cta__column_content">
+                            <div class="cta__content">
+                                <h2 class="cta__title wow animate__animated animate__fadeInUp"
+                                    style="animation-delay: 2s; animation-duration: 1s;">
+                                    The world is changed by those who unite for a common purpose
+                                </h2>
+                                <div class="cta__text text-1 wow animate__animated animate__fadeInUp"
+                                    style="animation-delay: 2s; animation-duration: 1s;">
+                                    <p>
+                                        Fill out the partnership application, and we will find investment opportunities
+                                        for you
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cta__column cta__column_form">
+                            <form action="#" class="cta__form form-footer">
+                                <div class="form-footer__item">
+                                    <input placeholder="Default" autocomplete='off' type='text' name='form[]'
+                                        class='form-footer__input text-2'>
+                                </div>
+                                <div class="form-footer__item">
+                                    <input placeholder="Default" autocomplete='off' type='text' name='form[]'
+                                        class='form-footer__input text-2'>
+                                </div>
+                                <div class="form-footer__item form-footer__item_textarea">
+                                    <textarea placeholder="Default" name="form[]"
+                                        class="form-footer__textarea text-2"></textarea>
+                                </div>
+                                <button type='submit' class='form-footer__btn btn btn_white'>
+                                    <span class="btn__icon">
+                                        <svg>
+                                            <use xlink:href="#btn"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="btn__text">send message</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <nav class="header__submenu submenu-header submenu-header_white" data-da="mobile-header__body, 3, 992.98">
+    <ul class="submenu-header__list">
+        <li class="submenu-header__item menu-header__item">
+            <a href="blog.html" class="submenu-header__link menu-header__link">blog</a>
+        </li>
+        <li class="submenu-header__item menu-header__item">
+            <a href="" class="submenu-header__link menu-header__link">Contacts</a>
+        </li>
+    </ul>
+</nav>
+        </main>
+        <footer class="footer hide wow animate__animated animate__fadeInUpBig" style="animation-duration: 3s;">
+    <div class="footer__main main-footer">
+        <div class="main-footer__container container">
+            <div class="main-footer__row">
+                <div class="main-footer__column main-footer__column_form">
+                    <form action="#" class="main-footer__form form-footer">
+                        <div class="form-footer__item form-item">
+                            <input placeholder="Default" autocomplete='off' type='text' name='form[]'
+                                class='form-footer__input text-2 req'>
+                        </div>
+                        <div class="form-footer__item form-item">
+                            <input placeholder="Default" autocomplete='off' type='text' name='form[]'
+                                class='form-footer__input text-2 req'>
+                        </div>
+                        <div class="form-footer__item form-item form-footer__item_textarea">
+                            <textarea placeholder="Default" name="form[]"
+                                class="form-footer__textarea text-2 req"></textarea>
+                        </div>
+                        <button type='submit' class='form-footer__btn btn btn_black'>
+                            <span class="btn__icon">
+                                <svg>
+                                    <use xlink:href="#btn"></use>
+                                </svg>
+                            </span>
+                            <span class="btn__text">send message</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="main-footer__column main-footer__column_content">
+                    <div class="main-footer__content">
+                        <a href="mailto:mailto@amainvest.co" class="main-footer__email">mailto@amainvest.co</a>
+                        <div class="main-footer__place place-main-footer">
+                            <div class="place-main-footer__icon">
+                                <img src="img/icons/place-footer.svg" alt="place-footer">
+                            </div>
+                            <div class="place-main-footer__value">Hong Kong</div>
+                        </div>
+                        <nav class="main-footer__menu menu-footer">
+                            <ul class="menu-footer__list">
+                                <div class="menu-footer__list-body">
+                                    <li class="menu-footer__item">
+                                        <a href="about.html" class="menu-footer__link text-2">About us</a>
+                                    </li>
+                                    <li class="menu-footer__item">
+                                        <a href="startups.html" class="menu-footer__link text-2">Startups</a>
+                                    </li>
+                                    <li class="menu-footer__item">
+                                        <a href="investors.html" class="menu-footer__link text-2">Investors</a>
+                                    </li>
+                                    <li class="menu-footer__item">
+                                        <a href="industries.html" class="menu-footer__link text-2">Industries &
+                                            Cases</a>
+                                    </li>
+                                    <li class="menu-footer__item">
+                                        <a href="blog.html" class="menu-footer__link text-2">Blog</a>
+                                    </li>
+                                    <li class="menu-footer__item">
+                                        <a href="candidates.html" class="menu-footer__link text-2">Candidates</a>
+                                    </li>
+                                </div>
+                            </ul>
+                            <ul class="menu-footer__list menu-footer__list_last">
+                                <div class="menu-footer__list-body">
+                                    <li class="menu-footer__item">
+                                        <a href="" class="menu-footer__link text-2">FAQ</a>
+                                    </li>
+                                    <li class="menu-footer__item">
+                                        <a href="" class="menu-footer__link text-2">Contacts</a>
+                                    </li>
+                                    <li class="menu-footer__item">
+                                        <a href="" class="menu-footer__link text-2">Legal information</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </nav>
+                        <div class="main-footer__bottom" data-da="menu-footer__list_last, -1, 1250">
+                            <a href="" class="main-footer__btn-linkedin">
+                                <span>
+                                    <svg>
+                                        <use xlink:href=" #linkedin">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer__title wow animate__animated animate__fadeInUp" style="animation-duration: 2s;">
+                <svg viewBox="0 0 1400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M43.8289 4.14892V199.468H123.489V234.574H0V4.14892H43.8289Z" fill="black" />
+                    <path
+                        d="M146.838 4.14892H270.326V39.2553H190.667V92.8723H263.288V127.979H190.667V199.468H270.326V234.574H146.838V4.14892Z"
+                        fill="black" />
+                    <path d="M385.715 39.2553V234.574H341.886V39.2553H287.5V4.14892H440.101V39.2553H385.715Z"
+                        fill="black" />
+                    <path
+                        d="M463.357 45V4.14892H503.347V49.4681C503.347 66.0638 489.271 86.4894 470.076 86.4894H467.516V71.4893C474.875 71.4893 487.031 68.617 487.031 45H463.357Z"
+                        fill="black" />
+                    <path
+                        d="M670.487 76.9149H628.578V74.3617C628.578 46.2766 618.341 35.1064 601.065 35.1064C588.588 35.1064 577.711 41.8085 577.711 54.5745C577.711 68.2979 583.15 74.6808 592.427 80.7447L637.216 110.426C661.53 126.702 676.566 140.745 676.566 175.213C676.566 215.745 651.612 240 605.544 240C556.596 240 531.643 211.596 531.643 164.362V155.426H573.552V164.362C573.552 196.596 588.908 204.894 605.544 204.894C622.18 204.894 631.457 193.404 631.457 179.043C631.457 164.043 623.779 155.106 607.464 144.574L568.433 119.043C545.399 104.043 533.882 84.5745 533.882 59.6808C533.882 21.7021 562.035 0 602.025 0C645.854 0 670.487 23.617 670.487 69.8936V76.9149Z"
+                        fill="black" />
+                    <path d="M868.092 39.2553V234.574H824.263V39.2553H769.877V4.14892H922.479V39.2553H868.092Z"
+                        fill="black" />
+                    <path
+                        d="M917.867 234.574L976.412 4.14892H1035.28L1086.46 234.574H1039.12L1028.24 174.574H978.652L964.895 234.574H917.867ZM984.09 140.426H1022.8L1005.21 33.1915L984.09 140.426Z"
+                        fill="black" />
+                    <path d="M1148.55 4.14892V199.468H1228.21V234.574H1104.72V4.14892H1148.55Z" fill="black" />
+                    <path
+                        d="M1295.39 4.14892V104.043L1348.49 4.14892H1398.08L1339.54 104.043L1400 234.574H1351.05L1312.66 142.66L1295.39 165.319V234.574H1251.56V4.14892H1295.39Z"
+                        fill="black" />
+                </svg>
+            </div>
+            <div class="main-footer__title-mobile wow animate__animated animate__fadeInUp"
+                style="animation-duration: 2s;">
+                <svg width="342" height="276" viewBox="0 0 342 276" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.9228 2.068V99.4236H66.5901V116.922H5.09781V2.068H26.9228Z" fill="black" />
+                    <path
+                        d="M78.217 2.068H139.709V19.5666H100.042V46.2916H136.205V63.7902H100.042V99.4236H139.709V116.922H78.217V2.068Z"
+                        fill="black" />
+                    <path d="M197.168 19.5666V116.922H175.343V19.5666H148.261V2.068H224.25V19.5666H197.168Z"
+                        fill="black" />
+                    <path
+                        d="M235.831 22.43V2.068H255.744V24.6571C255.744 32.9291 248.735 43.1101 239.176 43.1101H237.902V35.6334C241.566 35.6334 247.62 34.2017 247.62 22.43H235.831Z"
+                        fill="black" />
+                    <path
+                        d="M338.973 38.3377H318.104V37.0651C318.104 23.0663 313.006 17.4986 304.404 17.4986C298.191 17.4986 292.774 20.8392 292.774 27.2023C292.774 34.0427 295.483 37.2242 300.102 40.2467L322.405 55.0409C334.513 63.1539 342 70.1533 342 87.3337C342 107.537 329.574 119.627 306.634 119.627C282.26 119.627 269.834 105.469 269.834 81.9251V77.4709H290.703V81.9251C290.703 97.9919 298.35 102.128 306.634 102.128C314.918 102.128 319.538 96.4012 319.538 89.2427C319.538 81.766 315.714 77.3118 307.59 72.0623L288.154 59.336C276.684 51.8594 270.949 42.1556 270.949 29.7475C270.949 10.8173 284.968 0 304.882 0C326.707 0 338.973 11.7718 338.973 34.838V38.3377Z"
+                        fill="black" />
+                    <path d="M48.9071 178.644V276H27.0821V178.644H0V161.146H75.9892V178.644H48.9071Z" fill="black" />
+                    <path
+                        d="M73.693 276L102.846 161.146H132.158L157.648 276H134.07L128.654 246.093H103.961L97.111 276H73.693ZM106.669 229.072H125.946L117.184 175.622L106.669 229.072Z"
+                        fill="black" />
+                    <path d="M188.563 161.146V258.501H228.23V276H166.738V161.146H188.563Z" fill="black" />
+                    <path
+                        d="M261.682 161.146V210.937L288.127 161.146H312.82L283.666 210.937L313.775 276H289.401L270.285 230.186L261.682 241.48V276H239.857V161.146H261.682Z"
+                        fill="black" />
+                </svg>
+            </div>
+            <div class="main-footer__copyright">
+                <div class="main-footer__copyright-text text-2">© AMAINVEST 2024. All rights reserved</div>
+                <div class="main-footer__copyright-developers text-2">
+                    Website developers —
+                    <span>
+                        <img src="img/icons/rocketmen.svg" alt="rocketmen">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
