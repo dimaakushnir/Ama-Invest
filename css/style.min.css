@@ -1940,9 +1940,18 @@ h5 {
 .fullscreen-home__title {
   font-family: HeliosCond;
   font-weight: 700;
-  font-size: clamp(50px, 11.4dvw, 220px);
   text-transform: uppercase;
   color: #000;
+}
+@media (min-resolution: 1dppx) {
+  .fullscreen-home__title {
+    font-size: 11.4dvw;
+  }
+}
+@media (min-resolution: 2dppx) {
+  .fullscreen-home__title {
+    font-size: 9.1dvw;
+  }
 }
 .fullscreen-home__title div {
   overflow: hidden;
