@@ -1940,7 +1940,7 @@ h5 {
 .fullscreen-home__title {
   font-family: HeliosCond;
   font-weight: 700;
-  font-size: 11.4dvw;
+  font-size: clamp(50px, 11.4dvw, 220px);
   text-transform: uppercase;
   color: #000;
 }
@@ -1958,11 +1958,6 @@ h5 {
   transform: translateY(105%);
   animation: slide-in-1 1.5s ease 1s forwards;
 }
-@media (max-width: 1412px) {
-  .fullscreen-home__title {
-    font-size: 11.3dvw;
-  }
-}
 @media (max-width: 1024.98px) {
   .fullscreen-home__title {
     display: none;
@@ -1977,12 +1972,13 @@ h5 {
     font-family: HeliosCond;
     font-weight: 700;
     line-height: 117%;
-    font-size: 16.3dvw;
+    font-size: clamp(50px, 16.3dvw, 167px);
     text-transform: uppercase;
     color: #000;
   }
   .fullscreen-home__title-mobile .color {
     color: #d2ff00;
+    margin: 0 0 0 10px;
   }
   .fullscreen-home__title-mobile div {
     overflow: hidden;
@@ -1996,12 +1992,12 @@ h5 {
 }
 @media (max-width: 768.98px) {
   .fullscreen-home__title-mobile {
-    font-size: 16dvw;
+    font-size: clamp(50px, 16dvw, 167px);
   }
 }
 @media (max-width: 550px) {
   .fullscreen-home__title-mobile {
-    font-size: 15.5dvw;
+    font-size: clamp(50px, 15.5dvw, 167px);
   }
 }
 
