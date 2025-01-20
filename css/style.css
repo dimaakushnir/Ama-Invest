@@ -1967,6 +1967,16 @@ h5 {
   transform: translateY(105%);
   animation: slide-in-1 1.5s ease 1s forwards;
 }
+@media (max-width: 1412px) and (min-resolution: 1dppx) {
+  .fullscreen-home__title {
+    font-size: 11.3dvw;
+  }
+}
+@media (max-width: 1412px) and (min-resolution: 2dppx) {
+  .fullscreen-home__title {
+    font-size: 9dvw;
+  }
+}
 @media (max-width: 1024.98px) {
   .fullscreen-home__title {
     display: none;
