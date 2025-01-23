@@ -1990,10 +1990,21 @@ h5 {
     font-family: HeliosCond;
     font-weight: 700;
     line-height: 117%;
-    font-size: clamp(50px, 16.3dvw, 167px);
     text-transform: uppercase;
     color: #000;
   }
+}
+@media (max-width: 1024.98px) and (min-resolution: 1dppx) {
+  .fullscreen-home__title-mobile {
+    font-size: 16.3dvw;
+  }
+}
+@media (max-width: 1024.98px) and (min-resolution: 2dppx) {
+  .fullscreen-home__title-mobile {
+    font-size: 13dvw;
+  }
+}
+@media (max-width: 1024.98px) {
   .fullscreen-home__title-mobile .color {
     color: #d2ff00;
     margin: 0 0 0 10px;
@@ -2007,14 +2018,24 @@ h5 {
     animation: slide-in-1 1.5s ease 1s forwards;
   }
 }
-@media (max-width: 768.98px) {
+@media (max-width: 768.98px) and (min-resolution: 1dppx) {
   .fullscreen-home__title-mobile {
-    font-size: clamp(50px, 16dvw, 167px);
+    font-size: 16dvw;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 768.98px) and (min-resolution: 2dppx) {
   .fullscreen-home__title-mobile {
-    font-size: clamp(50px, 15.5dvw, 167px);
+    font-size: 12.8dvw;
+  }
+}
+@media (max-width: 550px) and (min-resolution: 1dppx) {
+  .fullscreen-home__title-mobile {
+    font-size: 15.5dvw;
+  }
+}
+@media (max-width: 550px) and (min-resolution: 2dppx) {
+  .fullscreen-home__title-mobile {
+    font-size: 12.4dvw;
   }
 }
 
